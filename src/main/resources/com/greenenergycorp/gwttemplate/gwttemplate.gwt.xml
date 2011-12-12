@@ -30,6 +30,7 @@
 	<define-configuration-property name="gin.ginjector" is-multi-valued="false" />
 	<set-configuration-property name="gin.ginjector" value="com.gwtplatform.samples.basic.client.MyGinjector" />
 
+	<extend-property name="locale" values="es"/>
 </module>
 
  
