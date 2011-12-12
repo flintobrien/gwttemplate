@@ -1,0 +1,17 @@
+.DS_Store
+.settings
+target
+.project
+.classpath
+/atoll-web/war
+*.log
+infinitest.filters
+/atoll-cli/src/main/generated-source
+/atoll-web/gwt-unitCache
+www-test
+.idea
+*/*.iml
+*.iml
+out/
+war/
+gwt-unitCache/
