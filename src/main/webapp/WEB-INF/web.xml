@@ -27,7 +27,7 @@
 	</listener>
 
   <welcome-file-list>
-    <welcome-file>gwttemplate.html</welcome-file>
+    <welcome-file>gwttemplate.jsp</welcome-file>
   </welcome-file-list>
 
 </web-app>

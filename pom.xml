@@ -207,7 +207,7 @@
 					<webappDirectory>war</webappDirectory>
 					<hostedWebapp>war</hostedWebapp>
 					<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
-					<runTarget>gwttemplate.html</runTarget>
+					<runTarget>gwttemplate.jsp</runTarget>
 					<style>DETAILED</style>
 					<i18nConstantsBundle>com.greenenergycorp.gwttemplate.client.GwtTemplateConstants</i18nConstantsBundle>
 				</configuration>

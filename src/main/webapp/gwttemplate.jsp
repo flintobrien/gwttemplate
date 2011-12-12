@@ -8,6 +8,9 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--  Set the local                                               -->
+    <meta name="gwt:property" content="locale=<%=request.getLocale()%>">
 
     <!--                                                               -->
     <!-- Consider inlining CSS to reduce the number of requested files -->
@@ -18,7 +21,7 @@
     <!--                                           -->
     <!-- Any title is fine                         -->
     <!--                                           -->
-    <title>Web Application Starter Project</title>
+    <title>Web Application Starter Project with i18n</title>
 
     <!--                                           -->
     <!-- This script loads your compiled module.   -->
@@ -34,6 +37,14 @@
   <!-- to create a completely dynamic UI.        -->
   <!--                                           -->
   <body>
+  	<%
+	out.println("Accept-Language:"+request.getHeader("Accept-Language")+"<br/><br/>");
+    //java.util.Enumeration names = request.getHeaderNames();
+    //while (names.hasMoreElements()) {
+    //    String name = (String)names.nextElement();
+    //    out.println(name+": "+request.getHeader(name)+"<br/>");
+    //}
+	%>
 
     <!-- OPTIONAL: include this if you want history support -->
     <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
